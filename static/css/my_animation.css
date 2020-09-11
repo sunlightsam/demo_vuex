@@ -1,0 +1,53 @@
+.animated-left {
+  opacity: 0;
+  transition: all 1.5s;
+  -webkit-transform: translateX(-30%);
+          transform: translateX(-30%);
+}
+
+.animated-right {
+  opacity: 0;
+  transition: all 1.5s;
+  -webkit-transform: translateX(30%);
+          transform: translateX(30%);
+}
+
+.animated-bottom {
+  opacity: 0;
+  -webkit-transform: translateY(30%);
+          transform: translateY(30%);
+  transition: all 1s;
+}
+
+.fade-X {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+@-webkit-keyframes fadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=my_animation.css.map */
