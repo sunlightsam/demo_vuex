@@ -1,0 +1,205 @@
+@import "../style/color";
+
+//
+// FONT
+//
+$base-font-size: 20px;
+$font-money: 10;
+$font-normal: 16;
+$font-medium: 18;
+$font-big: 28;
+$content-font-56: 56;
+$content-font-48: 48;
+$content-font-28: 28;
+$content-font-24: 24;
+$content-font-22: 22;
+$content-font-20: 20;
+$content-font-18: 18;
+$content-font-16: 16;
+
+
+//
+// SHADOW
+//
+$shadow-black: 0.5px 0.5px 0.5px black;
+
+
+//
+// Z-INDEX
+//
+$zindex-decrease3: -300;
+$zindex-decrease2: -200;
+$zindex-decrease1: -100;
+$zindex-normal: 0;
+$zindex-upgrade1: 100;
+$zindex-upgrade2: 200;
+$zindex-upgrade3: 300;
+$zindex-upgrade4: 400;
+$zindex-upgrade5: 500;
+
+
+.de-zindex-lv1 {
+  z-index: $zindex-decrease1;
+}
+
+.de-zindex-lv2 {
+  z-index: $zindex-decrease2;
+}
+
+.de-zindex-lv3 {
+  z-index: $zindex-decrease3;
+}
+
+.zindex-lv0 {
+  z-index: $zindex-normal;
+}
+
+.zindex-lv1 {
+  z-index: $zindex-upgrade1;
+}
+
+.zindex-lv2 {
+  z-index: $zindex-upgrade2;
+}
+
+.zindex-lv3 {
+  z-index: $zindex-upgrade3;
+}
+
+.zindex-lv4 {
+  z-index: $zindex-upgrade4;
+}
+
+.zindex-lv5 {
+  z-index: $zindex-upgrade5;
+}
+
+
+//
+// DISPLAY
+//
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-c {
+  display: flex;
+  flex-direction: column;
+}
+
+.d-flex-r {
+  display: flex;
+  flex-direction: row;
+}
+
+.d-relative {
+  position: relative;
+}
+
+.d-absolute {
+  position: absolute;
+}
+
+.d-justify-center {
+  justify-content: center;
+}
+
+.d-justify-space-around {
+  justify-content: space-around;
+}
+
+.d-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-text-center {
+  position: absolute;
+  justify-content: center;
+  // align-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+// MIXINS
+//
+@mixin font-size($sizeValue, $line: 0) {
+  @if ($line==0) {
+    $line: 1;
+  }
+
+  $tempSize: $base-font-size / 20; // EX: 16px = 16*0.05 = 0.8rem => base-font-size:20*0.8
+  font-size: $sizeValue+px;
+  font-size: ($sizeValue * 0.05)+rem;
+  line-height: $line;
+}
+
+//
+// color class
+//
+.text-grey {
+  color: grey;
+}
+
+.text-green {
+  color: green;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-white {
+  color: white;
+}
+
+//
+// test only begin will delete
+//
+
+.b-red {
+  background-color: red;
+}
+
+.b-green {
+  background-color: green;
+}
+
+//
+// test only end will delete
+//
+
+.let-center {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  z-index: $zindex-upgrade1;
+  // -webkit-transform: translateX(-50%);
+  -webkit-transform: translateY(-50%);
+  -webkit-transform: translateX(-50%);
+  // transform: translateX(-50%);
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+}
+
+main {
+  padding: 0;
+}
