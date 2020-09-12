@@ -1,17 +1,41 @@
-# 電商Demo
 
-## 說明
-	電商Demo。
+# Demo (Vue2 + Vuex + Firebase) 
 
-*	Vue2.0
-*	Vuex
-*	Vuetify
-*	Firebase
+> 個人展示頁面，無商用。
+> `https://sunlightsam.github.io/demo_vuex`
+
+![作品展示連結](https://sunlightsam.github.io/demo_vuex/)
+
+前往: <https://sunlightsam.github.io/demo_vuex>
+
+## 透過QR Code前往 
+可掃描方式前往。
+
+![掃描前往](https://github.com/sunlightsam/demo_vuex/blob/gh-pages/about_readme/demo_link.png)
 
 
-## 簡圖
-![簡圖01](https://github.com/sunlightsam/vuetifyDemo/blob/master/demo/demo1.png)
+![作品展示連結](https://sunlightsam.github.io/demo_vuex/)
 
-![簡圖02](https://github.com/sunlightsam/vuetifyDemo/blob/master/demo/demo2.png)
+## 原始檔案可參考
+前往: <https://github.com/sunlightsam/demo_vuex/tree/master>
 
-![簡圖03](https://github.com/sunlightsam/vuetifyDemo/blob/master/demo/demo3.png)
+## 相關使用
+- Vuex
+- Vuetify
+- Firebase
+- Vuetify
+- AOS.js
+
+## 作品簡圖
+### 主頁
+![主頁](https://github.com/sunlightsam/demo_vuex/blob/gh-pages/about_readme/demo01.jpg)
+
+### 產品修改
+![產品修改](https://github.com/sunlightsam/demo_vuex/blob/gh-pages/about_readme/demo02.jpg)
+
+### 購物車
+![購物車](https://github.com/sunlightsam/demo_vuex/blob/gh-pages/about_readme/demo03.jpg)
+
+### 農場介紹
+![農場介紹](https://github.com/sunlightsam/demo_vuex/blob/gh-pages/about_readme/demo04.jpg)
+
