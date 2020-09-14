@@ -1,0 +1,135 @@
+.de-zindex-lv1 {
+  z-index: -100;
+}
+
+.de-zindex-lv2 {
+  z-index: -200;
+}
+
+.de-zindex-lv3 {
+  z-index: -300;
+}
+
+.zindex-lv0 {
+  z-index: 0;
+}
+
+.zindex-lv1 {
+  z-index: 100;
+}
+
+.zindex-lv2 {
+  z-index: 200;
+}
+
+.zindex-lv3 {
+  z-index: 300;
+}
+
+.zindex-lv4 {
+  z-index: 400;
+}
+
+.zindex-lv5 {
+  z-index: 500;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-c {
+  display: flex;
+  flex-direction: column;
+}
+
+.d-flex-r {
+  display: flex;
+  flex-direction: row;
+}
+
+.d-relative {
+  position: relative;
+}
+
+.d-absolute {
+  position: absolute;
+}
+
+.d-justify-center {
+  justify-content: center;
+}
+
+.d-justify-space-around {
+  justify-content: space-around;
+}
+
+.d-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-text-center {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.text-grey {
+  color: grey;
+}
+
+.text-green {
+  color: green;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-white {
+  color: white;
+}
+
+.b-red {
+  background-color: red;
+}
+
+.b-green {
+  background-color: green;
+}
+
+.let-center {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  z-index: 100;
+  -webkit-transform: translateY(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+}
+
+main {
+  padding: 0;
+}
+/*# sourceMappingURL=global.css.map */
